@@ -1,0 +1,44 @@
+body{
+background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#todo input{
+background-color: rgb(255, 255, 255);
+border: 0;
+width: 280px;
+height: 58px;
+padding: 0 20px;
+margin: 20px;
+font-size: 23px;
+border-radius: 5px;
+color: rgb(0, 0, 0);
+font-family:'Times New Roman';
+}
+
+#todo input::placeholder{
+color: white;
+}
+#todo input:focus,#todo button{
+outline: none;
+}
+#todo button{
+  height: 49px;
+  width: 89px;
+  border: 0;
+  border-radius: 2px;
+  background-color: rgb(168, 90, 90);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family:'Times New Roman';
+}
+.tul{
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  
+
+}

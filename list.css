@@ -1,0 +1,41 @@
+.tam{
+    color: rgb(0, 0, 0);
+    width: 400px;
+    background-color:rgb(255, 239, 252);
+    height: 52px;
+    margin: 30px auto;
+    border-radius: 2px;
+    
+}
+.tam p{
+    padding: 18px;
+    position: relative;
+   
+}
+.tam p span{
+    position: absolute;
+    right: 10px;
+    
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.tam p input{
+    background-color: transparent;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family:'Times New Roman';
+    margin: -6px auto;
+}
+.tam p input:focus{
+    outline: none;
+}
+.box{
+    margin: 0 6px;
+    margin-left: 5px;
+    color: white;
+}
